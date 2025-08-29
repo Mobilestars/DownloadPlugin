@@ -1,0 +1,13 @@
+name: DownloadPlugin
+main: de.scholle.download.DownloadPlugin
+version: 1.0
+api-version: 1.21
+commands:
+  download:
+    description: Lade die aktuelle Welt herunter
+    usage: /download <zahl>
+    permission: downloadplugin.use
+permissions:
+  downloadplugin.use:
+    description: Erlaubt Spielern den Download-Befehl zu nutzen
+    default: true

@@ -1,0 +1,9 @@
+blocked-worlds:
+  - world_nether
+  - world_the_end
+log-downloads: true
+log-file: downloads.log
+http-port: 8080 # Intern
+public-port: 8100 # Extern (Tunnel)
+download-expiration: 3600
+public-ip: "mc.meinserver.net"
